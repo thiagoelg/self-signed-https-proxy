@@ -1,0 +1,19 @@
+{
+  "name": "simple-https-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:1": "node src/index.js",
+    "start:2": "node src/index2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-http-proxy": "^1.6.3",
+    "http-proxy": "^1.18.1",
+    "https": "^1.0.0"
+  }
+}
